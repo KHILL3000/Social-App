@@ -11,12 +11,12 @@
 		E73ABE6B1E29C42600AF4BC2 /* RoundButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E73ABE6A1E29C42600AF4BC2 /* RoundButton.swift */; };
 		E73ABE6D1E29C58F00AF4BC2 /* SigninField.swift in Sources */ = {isa = PBXBuildFile; fileRef = E73ABE6C1E29C58F00AF4BC2 /* SigninField.swift */; };
 		E73ABE6F1E29C68A00AF4BC2 /* SignInButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E73ABE6E1E29C68A00AF4BC2 /* SignInButton.swift */; };
+		E73ABE771E2A06D600AF4BC2 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E73ABE761E2A06D600AF4BC2 /* GoogleService-Info.plist */; };
 		E73F784D1E296B5A00148165 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E73F784C1E296B5A00148165 /* AppDelegate.swift */; };
 		E73F784F1E296B5A00148165 /* SignInVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E73F784E1E296B5A00148165 /* SignInVC.swift */; };
 		E73F78521E296B5A00148165 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E73F78501E296B5A00148165 /* Main.storyboard */; };
 		E73F78541E296B5A00148165 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E73F78531E296B5A00148165 /* Assets.xcassets */; };
 		E73F78571E296B5A00148165 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E73F78551E296B5A00148165 /* LaunchScreen.storyboard */; };
-		E73F78641E2972D700148165 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E73F78631E2972D700148165 /* GoogleService-Info.plist */; };
 		E73F78661E29B90F00148165 /* SigninView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E73F78651E29B90F00148165 /* SigninView.swift */; };
 		E73F78691E29B99500148165 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = E73F78681E29B99500148165 /* Constants.swift */; };
 /* End PBXBuildFile section */
@@ -28,6 +28,7 @@
 		E73ABE6A1E29C42600AF4BC2 /* RoundButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundButton.swift; sourceTree = "<group>"; };
 		E73ABE6C1E29C58F00AF4BC2 /* SigninField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SigninField.swift; sourceTree = "<group>"; };
 		E73ABE6E1E29C68A00AF4BC2 /* SignInButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInButton.swift; sourceTree = "<group>"; };
+		E73ABE761E2A06D600AF4BC2 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = SOURCE_ROOT; };
 		E73F78491E296B5A00148165 /* SocialMediaApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SocialMediaApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E73F784C1E296B5A00148165 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E73F784E1E296B5A00148165 /* SignInVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInVC.swift; sourceTree = "<group>"; };
@@ -35,7 +36,6 @@
 		E73F78531E296B5A00148165 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E73F78561E296B5A00148165 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E73F78581E296B5A00148165 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E73F78631E2972D700148165 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		E73F78651E29B90F00148165 /* SigninView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SigninView.swift; sourceTree = "<group>"; };
 		E73F78681E29B99500148165 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -99,7 +99,7 @@
 				E73F78531E296B5A00148165 /* Assets.xcassets */,
 				E73F78551E296B5A00148165 /* LaunchScreen.storyboard */,
 				E73F78581E296B5A00148165 /* Info.plist */,
-				E73F78631E2972D700148165 /* GoogleService-Info.plist */,
+				E73ABE761E2A06D600AF4BC2 /* GoogleService-Info.plist */,
 			);
 			path = SocialMediaApp;
 			sourceTree = "<group>";
@@ -202,7 +202,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E73F78571E296B5A00148165 /* LaunchScreen.storyboard in Resources */,
-				E73F78641E2972D700148165 /* GoogleService-Info.plist in Resources */,
+				E73ABE771E2A06D600AF4BC2 /* GoogleService-Info.plist in Resources */,
 				E73F78541E296B5A00148165 /* Assets.xcassets in Resources */,
 				E73F78521E296B5A00148165 /* Main.storyboard in Resources */,
 			);
