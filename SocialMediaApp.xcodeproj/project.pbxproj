@@ -38,6 +38,7 @@
 		E73F78581E296B5A00148165 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E73F78651E29B90F00148165 /* SigninView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SigninView.swift; sourceTree = "<group>"; };
 		E73F78681E29B99500148165 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		E77AEDCB1E2A1100007FC974 /* SocialMediaApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SocialMediaApp.entitlements; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +91,7 @@
 		E73F784B1E296B5A00148165 /* SocialMediaApp */ = {
 			isa = PBXGroup;
 			children = (
+				E77AEDCB1E2A1100007FC974 /* SocialMediaApp.entitlements */,
 				E73F78671E29B98300148165 /* Util */,
 				E73F78621E2970E100148165 /* Controller */,
 				E73F78611E2970DC00148165 /* View */,
@@ -175,6 +177,11 @@
 						CreatedOnToolsVersion = 8.2;
 						DevelopmentTeam = 9KFZ2RM438;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Keychain = {
+								enabled = 0;
+							};
+						};
 					};
 				};
 			};
@@ -390,6 +397,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 45C0F927E16A75F659214320 /* Pods-SocialMediaApp.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 9KFZ2RM438;
 				INFOPLIST_FILE = SocialMediaApp/Info.plist;
@@ -404,6 +412,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 180F4055C9EC6B3CD93C1689 /* Pods-SocialMediaApp.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 9KFZ2RM438;
 				INFOPLIST_FILE = SocialMediaApp/Info.plist;
