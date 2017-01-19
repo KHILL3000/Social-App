@@ -12,5 +12,6 @@ target 'SocialMediaApp' do
   pod 'Firebase/Storage'
   pod 'FacebookCore'
   pod 'FacebookLogin'
+  pod 'SwiftKeychainWrapper'
 
 end
