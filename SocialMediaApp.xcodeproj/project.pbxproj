@@ -21,6 +21,7 @@
 		E73F78691E29B99500148165 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = E73F78681E29B99500148165 /* Constants.swift */; };
 		E79BDC9F1E3055F5004D51BA /* FeedVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E79BDC9E1E3055F5004D51BA /* FeedVC.swift */; };
 		E7ECE7811E331EC000FF7F30 /* CircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7ECE7801E331EC000FF7F30 /* CircleView.swift */; };
+		E7ECE7831E333E4C00FF7F30 /* PostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7ECE7821E333E4C00FF7F30 /* PostCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -43,6 +44,7 @@
 		E77AEDCB1E2A1100007FC974 /* SocialMediaApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SocialMediaApp.entitlements; sourceTree = "<group>"; };
 		E79BDC9E1E3055F5004D51BA /* FeedVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedVC.swift; sourceTree = "<group>"; };
 		E7ECE7801E331EC000FF7F30 /* CircleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircleView.swift; sourceTree = "<group>"; };
+		E7ECE7821E333E4C00FF7F30 /* PostCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -125,6 +127,7 @@
 				E73ABE6C1E29C58F00AF4BC2 /* SigninField.swift */,
 				E73ABE6E1E29C68A00AF4BC2 /* SignInButton.swift */,
 				E7ECE7801E331EC000FF7F30 /* CircleView.swift */,
+				E7ECE7821E333E4C00FF7F30 /* PostCell.swift */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -285,6 +288,7 @@
 				E73F78661E29B90F00148165 /* SigninView.swift in Sources */,
 				E73ABE6D1E29C58F00AF4BC2 /* SigninField.swift in Sources */,
 				E73F78691E29B99500148165 /* Constants.swift in Sources */,
+				E7ECE7831E333E4C00FF7F30 /* PostCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
