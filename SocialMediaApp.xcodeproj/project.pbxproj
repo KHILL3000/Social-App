@@ -20,6 +20,7 @@
 		E73F78661E29B90F00148165 /* SigninView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E73F78651E29B90F00148165 /* SigninView.swift */; };
 		E73F78691E29B99500148165 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = E73F78681E29B99500148165 /* Constants.swift */; };
 		E79BDC9F1E3055F5004D51BA /* FeedVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E79BDC9E1E3055F5004D51BA /* FeedVC.swift */; };
+		E7ECE7811E331EC000FF7F30 /* CircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7ECE7801E331EC000FF7F30 /* CircleView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -41,6 +42,7 @@
 		E73F78681E29B99500148165 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		E77AEDCB1E2A1100007FC974 /* SocialMediaApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SocialMediaApp.entitlements; sourceTree = "<group>"; };
 		E79BDC9E1E3055F5004D51BA /* FeedVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedVC.swift; sourceTree = "<group>"; };
+		E7ECE7801E331EC000FF7F30 /* CircleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircleView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,6 +124,7 @@
 				E73ABE6A1E29C42600AF4BC2 /* RoundButton.swift */,
 				E73ABE6C1E29C58F00AF4BC2 /* SigninField.swift */,
 				E73ABE6E1E29C68A00AF4BC2 /* SignInButton.swift */,
+				E7ECE7801E331EC000FF7F30 /* CircleView.swift */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -273,6 +276,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E7ECE7811E331EC000FF7F30 /* CircleView.swift in Sources */,
 				E73ABE6F1E29C68A00AF4BC2 /* SignInButton.swift in Sources */,
 				E79BDC9F1E3055F5004D51BA /* FeedVC.swift in Sources */,
 				E73F784F1E296B5A00148165 /* SignInVC.swift in Sources */,
